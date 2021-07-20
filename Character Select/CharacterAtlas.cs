@@ -1,0 +1,112 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class CharacterAtlas : MonoBehaviour
+{
+    public static Image[] images;
+
+    [SerializeField] Image Char1;
+    [SerializeField] Image Char2;
+    [SerializeField] Image Char3;
+    [SerializeField] Image Char4;
+    [SerializeField] Image Char5;
+    [SerializeField] Image Char6;
+    [SerializeField] Image Char7;
+    [SerializeField] Image Char8;
+    [SerializeField] Image Char9;
+    [SerializeField] Image Char10;
+    [SerializeField] Image Char11;
+    [SerializeField] Image Char12;
+    [SerializeField] Image Char13;
+    [SerializeField] Image Char14;
+    [SerializeField] Image Char15;
+    [SerializeField] Image Char16;
+    [SerializeField] Image Char17;
+    [SerializeField] Image Char18;
+    [SerializeField] Image Char19;
+    [SerializeField] Image Char20;
+    [SerializeField] Image Char21;
+    [SerializeField] Image Char22;
+    [SerializeField] Image Char23;
+    [SerializeField] Image Char24;
+    [SerializeField] Image Char25;
+    [SerializeField] Image Char26;
+    [SerializeField] Image Char27;
+    [SerializeField] Image Char28;
+    [SerializeField] Image Char29;
+    [SerializeField] Image Char30;
+    [SerializeField] Image Char31;
+    [SerializeField] Image Char32;
+    [SerializeField] Image Char33;
+    [SerializeField] Image Char34;
+    [SerializeField] Image Char35;
+    [SerializeField] Image Char36;
+    [SerializeField] Image Char37;
+    [SerializeField] Image Char38;
+    [SerializeField] Image Char39;
+    [SerializeField] Image Char40;
+    [SerializeField] Image Char41;
+    [SerializeField] Image Char42;
+    [SerializeField] Image Char43;
+    [SerializeField] Image Char44;
+    [SerializeField] Image Char45;
+    [SerializeField] Image Char46;
+    [SerializeField] Image Char47;
+    [SerializeField] Image Char48;
+
+    void Awake()
+    {
+        images = new Image[49];
+
+        images[1] = Char1;
+        images[2] = Char2;
+        images[3] = Char3;
+        images[4] = Char4;
+        images[5] = Char5;
+        images[6] = Char6;
+        images[7] = Char7;
+        images[8] = Char8;
+        images[9] = Char9;
+        images[10] = Char10;
+        images[11] = Char11;
+        images[12] = Char12;
+        images[13] = Char13;
+        images[14] = Char14;
+        images[15] = Char15;
+        images[16] = Char16;
+        images[17] = Char17;
+        images[18] = Char18;
+        images[19] = Char19;
+        images[20] = Char20;
+        images[21] = Char21;
+        images[22] = Char22;
+        images[23] = Char23;
+        images[24] = Char24;
+        images[25] = Char25;
+        images[26] = Char26;
+        images[27] = Char27;
+        images[28] = Char28;
+        images[29] = Char29;
+        images[30] = Char30;
+        images[31] = Char31;
+        images[32] = Char32;
+        images[33] = Char33;
+        images[34] = Char34;
+        images[35] = Char35;
+        images[36] = Char36;
+        images[37] = Char37;
+        images[38] = Char38;
+        images[39] = Char39;
+        images[40] = Char40;
+        images[41] = Char41;
+        images[42] = Char42;
+        images[43] = Char43;
+        images[44] = Char44;
+        images[45] = Char45;
+        images[46] = Char46;
+        images[47] = Char47;
+        images[48] = Char48;
+    }
+}
